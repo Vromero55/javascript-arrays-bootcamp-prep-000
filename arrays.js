@@ -1,6 +1,5 @@
 var chocolateBars=["snickers", "hundred grand", "kitktat", "skittles"];
 function addElementToBeginningOfArray(a, b){
-  
   var newa=[b, ...a];
   return newa;
   }
@@ -38,5 +37,7 @@ function addElementToBeginningOfArray(a, b){
         o=o.slice(0, o.length-1);
         return o;
       }
-
+var fruits=["w","t","t"];
+destructivelyAddElementToEndOfArray(fruits, "t");
+console.log(fruits);
       
